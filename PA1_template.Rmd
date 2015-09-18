@@ -40,7 +40,8 @@ The mean and median of steps taken per day are calculated as well.
  stepsMedian<- median(stepsDaily$steps)
 ```
 
-**The mean is `r stepsMean`, and the median is `r stepsMedian`.**
+**The mean of steps taken perday is `r stepsMean`, 
+  and the median of steps taken per day is `r stepsMedian`.**
 
 
 
@@ -101,7 +102,7 @@ hist(stepsDaily$steps, main ="Total Steps Each Day", col="blue", xlab="Number of
 legend("topright", c("Non-imputed", "Imputed"), col=c("blue", "red"), lwd=10)
 ```
 
-
+*From the histogram above, the impact of imputing missing data is relatively small at low frequency (observation amounts), but the impact is obviously when the freqency is high.*
 
 ### **Are there differences in activity patterns between weekdays and weekends?**
 

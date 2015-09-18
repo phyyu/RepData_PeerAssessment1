@@ -44,7 +44,8 @@ The mean and median of steps taken per day are calculated as well.
  stepsMedian<- median(stepsDaily$steps)
 ```
 
-**The mean is 1.0766e+04, and the median is 10765.**
+**The mean of steps taken perday is 1.0766e+04, 
+  and the median of steps taken per day is 10765.**
 
 
 
@@ -114,7 +115,7 @@ legend("topright", c("Non-imputed", "Imputed"), col=c("blue", "red"), lwd=10)
 
 ![plot of chunk Imputed_Non-imputed](figure/Imputed_Non-imputed-1.png) 
 
-
+*From the histogram above, the impact of imputing missing data is relatively small at low frequency (observation amounts), but the impact is obviously when the freqency is high.*
 
 ### **Are there differences in activity patterns between weekdays and weekends?**
 
